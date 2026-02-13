@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Naeem Zad - Homeopathic Consultant</title>
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#0b2c3d;
+    color:white;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#0a2533;
+}
+header h1{margin:0;}
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+.hero{
+    display:flex;
+    padding:50px;
+    align-items:center;
+}
+.hero-text{
+    width:55%;
+}
+.hero-text h2{
+    font-size:48px;
+    margin-bottom:10px;
+}
+.hero-text p{
+    font-size:18px;
+}
+.btn{
+    background:#4fc3dc;
+    padding:12px 25px;
+    border:none;
+    color:black;
+    margin-top:20px;
+    cursor:pointer;
+    font-weight:bold;
+}
+.hero img{
+    width:350px;
+    border-radius:50%;
+}
+.section{
+    padding:50px;
+    text-align:center;
+}
+.cards{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+}
+.card{
+    width:30%;
+    background:#123e52;
+    padding:20px;
+    border-radius:10px;
+}
+.contact{
+    padding:50px;
+    background:#0a2533;
+}
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:none;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#081c27;
+}
+@media(max-width:768px){
+    .hero{flex-direction:column;}
+    .cards{flex-direction:column;}
+    .card{width:90%; margin:10px auto;}
+}
+</style>
+</head>
+<body>
+
+
+<header>
+    <h1>Dr. Naeem Zad</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Get a Free Online Consultation</h2>
+        <p>Consult Dr. Naeem Zad for any illness — absolutely free of cost.</p>
+        <button class="btn">Contact Now</button>
+        <p style="margin-top:20px;">Call: <b>0346-9871356</b></p>
+    </div>
+    <img src="doctor.jpg" alt="Doctor Image">
+</section>
+
+
+<section class="section">
+    <h2>Specializations</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Mind Therapist</h3>
+            <p>Relief from depression and anxiety</p>
+        </div>
+        <div class="card">
+            <h3>Acupressure Therapist</h3>
+            <p>Natural healing through pressure points</p>
+        </div>
+        <div class="card">
+            <h3>Hair, Kidney & Thyroid Specialist</h3>
+            <p>Effective homeopathic treatments</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact">
+    <h2>Contact Dr. Naeem Zad</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="text" placeholder="Your Phone Number">
+    <input type="email" placeholder="Your Email">
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button class="btn">Send Message</button>
+</section>
+
+
+<footer>
+    © 2024 Dr. Naeem Zad | Phone: 0346-9871356 | Email: tanmaeem@gmail.com
+</footer>
+
+
+</body>
+</html>
